@@ -246,6 +246,56 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Car_Make__c</fullName>
+        <description>Custom field to stage merge conflict on page layout for Cars.com.</description>
+        <externalId>false</externalId>
+        <label>Car Make</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dodge</fullName>
+                    <default>false</default>
+                    <label>Dodge</label>
+                </value>
+                <value>
+                    <fullName>Chevrolet</fullName>
+                    <default>false</default>
+                    <label>Chevrolet</label>
+                </value>
+                <value>
+                    <fullName>Ford</fullName>
+                    <default>false</default>
+                    <label>Ford</label>
+                </value>
+                <value>
+                    <fullName>Toyota</fullName>
+                    <default>false</default>
+                    <label>Toyota</label>
+                </value>
+                <value>
+                    <fullName>Jeep</fullName>
+                    <default>false</default>
+                    <label>Jeep</label>
+                </value>
+                <value>
+                    <fullName>Subaru</fullName>
+                    <default>false</default>
+                    <label>Subaru</label>
+                </value>
+                <value>
+                    <fullName>Ferrari</fullName>
+                    <default>false</default>
+                    <label>Ferrari</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -293,6 +343,18 @@
         <fullName>Rating</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Salesforce_User_Group_Leader__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Custom field for Cars.com to show merge conflict on page layout.</description>
+        <externalId>false</externalId>
+        <label>Salesforce User Group Leader</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
