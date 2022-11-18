@@ -323,6 +323,19 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Use_Case_2_Picklist__c</fullName>
+        <description>Custom picklist field created for use case 2 from Jake/Shelley training.</description>
+        <externalId>false</externalId>
+        <label>Use Case 2 Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Use_Case_2_Global_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
