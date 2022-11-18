@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Bandit</fullName>
+        <default>false</default>
+        <label>Bandit</label>
+    </customValue>
+    <customValue>
+        <fullName>Bingo</fullName>
+        <default>false</default>
+        <label>Bingo</label>
+    </customValue>
+    <customValue>
+        <fullName>Bluey</fullName>
+        <default>false</default>
+        <label>Bluey</label>
+    </customValue>
+    <customValue>
+        <fullName>Captain Barnacles</fullName>
+        <default>false</default>
+        <label>Captain Barnacles</label>
+    </customValue>
+    <customValue>
+        <fullName>Chili</fullName>
+        <default>false</default>
+        <label>Chili</label>
+    </customValue>
+    <customValue>
+        <fullName>Chris Kratt</fullName>
+        <default>false</default>
+        <label>Chris Kratt</label>
+    </customValue>
+    <customValue>
+        <fullName>Martin Kratt</fullName>
+        <default>false</default>
+        <label>Martin Kratt</label>
+    </customValue>
+    <customValue>
+        <fullName>Scooch</fullName>
+        <default>false</default>
+        <label>Scooch</label>
+    </customValue>
+    <customValue>
+        <fullName>Tag</fullName>
+        <default>false</default>
+        <label>Tag</label>
+    </customValue>
+    <description>Use case 2 from Jake/Shelley training.</description>
+    <masterLabel>Use Case 2 Global Values</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
