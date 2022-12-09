@@ -14110,7 +14110,7 @@
         <layout>ConsumptionSchedule-Consumption Schedule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
+        <layout>Contact-Use Case 2 Contact Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContactPointAddress-Contact Point Address Layout</layout>
