@@ -27,6 +27,10 @@
                 <behavior>Edit</behavior>
                 <field>Lifted_Trucks_Are_Cool__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Salesforce_User_Group_Leader__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
