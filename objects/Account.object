@@ -295,6 +295,18 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Salesforce_User_Group_Leader__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Custom field for Cars.com to stage merge conflict for page layouts.</description>
+        <externalId>false</externalId>
+        <label>Salesforce User Group Leader</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
