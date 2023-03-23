@@ -396,6 +396,19 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Lifted_Trucks_Are_Cool__c</fullName>
+        <description>Custom field created for Cars.com demo video.</description>
+        <externalId>false</externalId>
+        <label>Lifted Trucks Are Cool</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>True_False</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>MailingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -426,6 +439,17 @@
     </fields>
     <fields>
         <fullName>ReportsToId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Salesforce_User_Group_Leader__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Salesforce User Group Leader</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
